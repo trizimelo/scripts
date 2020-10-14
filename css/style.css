@@ -1,0 +1,33 @@
+/*arquivo css*/
+ /* tem mais força o css inline, seguido do
+ interno e pelo externo*/
+ 
+* {font-family: 'Kalam', cursive; text-shadow: #000 1px 0px;}
+h1 {font-family: Times, serif, cursive;
+font-size: 1,2em;
+color: orange;
+font-weight: bolder;
+font-style: inherit;}
+
+#sec1{/*border: dashed black 1px; 
+border-radius: 2px;*/
+border-top: orange solid 1px;
+border-bottom: orange solid 1px;
+border-left: orange solid 1px;
+border-right: orange solid 1px;
+padding-left: 10px;
+background-color: lightcoral;
+width: 50%;}
+
+#parte1 li {display: inline;}
+#parte2 li { display: inline;}
+
+spam {background-color: lightgray;}
+
+#sec1:hover{background-color: lightgray;}
+
+footer h6 {background-color: greenyellow;
+    width: 50%;
+text-align: center;
+padding-left: 25%;} 
+

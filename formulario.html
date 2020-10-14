@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro </h1>
+    <hr>
+    <form action="#" method="GET">
+        <!-- protocolo http - MÉTODO GET: informações vão pela URL - mais rápido, menos seguro
+        / METODO POST: informações vão encapsuladas (empacotadas) no body - mais lento, mais seguro -->
+         <p>
+        <label for="nome">Nome completo</label>
+         <input type="text" maxlength="80" minlength="3" 
+         placeholder="Digite seu nome aqui" id="nome" name="nome" required>
+        </p>
+        <p>
+            <label for="Idade">Idade</label>
+            <input type="number" id="Idade" min="18" max="100" size="60"
+            placeholder="Digite sua idade" required>
+        </p>
+        <p>
+            <label for="nascimento">Nascimento</label>
+            <input type="date" id="nascimento" name="data_nascimento">
+            <label for="horanascimento">Hora do Nascimento </label>
+            <input type="time" id="horanascimento">
+        </p>
+        <P>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" minlength="6" maxlength="12"
+            placeholder="Digite sua senha">
+            <button>Mostrar senha</button> 
+        </P>
+        <P>
+            <label for="confirmarsenha">Confirmar senha</label>
+            <input type="password" id="confirmarsenha" minlength="6" maxlength="12"
+            placeholder="Digite sua senha novamente">
+        </P>
+        <p>
+            <label for="observacao">Observação</label>
+            <textarea name="observacao" id="observacao" cols="30" 
+            rows="5" maxlength="100"></textarea>
+        </p>
+
+        <p>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="fem" value="F">Feminino
+                <input type="radio" name="sexo" id="mas" value="M">Masculino
+                <input type="radio" name="sexo" id="out" value="O">Outro
+            </fieldset>
+        </p>
+        <p>
+            <input type="checkbox" name="vt" id="" value="VT">Vale transporte
+            <BR>
+            <input type="checkbox" name="vr" id="" value="VR">Vale refeição
+            <br>
+            <input type="checkbox" name="cm" id="" value="CM">Convenio médico
+            <br>
+            <input type="checkbox" name="co" id="" value="CO">Convenio odontológico
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>     
+</body>
+</html>

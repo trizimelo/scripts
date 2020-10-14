@@ -1,0 +1,37 @@
+
+h1{color: yellow; background-color:#EDEDED; text-align: center; text-shadow: black 0em 0em 0.1em; font-size: 45px;}
+*{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif} 
+
+p{padding-left: 8px;}
+
+#menu ul {
+padding:0px;
+margin:0px;
+background-color:#EDEDED;
+list-style:none;
+text-align: center;
+text-shadow: black 0em 0em 0.1em;
+font-size: 50px; 
+}
+#menu ul li { display: inline;  }
+
+#marca {text-align: center;}
+
+#missao {text-align: center; text-shadow: black 0em 0em 0.1em;
+border-width: medium;
+border-style: solid;
+border-color: #F00;}
+
+#menu:hover{text-decoration-color: cornflowerblue;}
+
+div.margem2 {
+background: #900;
+color: #FFF;
+padding: 10px;}
+
+body { margin: 10em;  background-color: darkgray; }
+    
+    
+
+
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=g, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styletreinando.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Muli" />
+    <title>TimeNotUsed</title>
+</head>
+<body>
+    <header>
+        <h1 id="tituloh"> Time Not Used </h1>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Voluntariados</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                </ul>
+            </nav>
+        <hr>
+    </header>
+
+    <main>
+        <p id="missao">Nosso projeto te dá referências de onde trabalhar voluntáriamente, 
+        além de te dar um certificado de horas!</p>
+        <hr>
+
+        <h2>Cadastre-se aqui</h2>
+        <form action="#" method="GET">
+        <p>
+            <label for="Nome">Nome completo</label>
+            <input type="text" maxlength="80" minlength="2"
+            placeholder="Digite seu nome aqui" id="Nome" name="Nome" required>
+            
+        </p>
+
+        <p>
+            <label for="datadenasc">Data de Nascimento</label>
+            <input type="date" id="datadenasc" name="data_de_nascimento"
+            placeholder="Digite sua data de nascimento aqui" required>
+
+        </p>
+
+        <p>
+            <label for="cpf">CPF</label>
+            <input type="number" minlength="11" maxlength="11"
+            placeholder="Digite os 11 números de seu CPF aqui" id="cpf" name="NUMERO_CPF" required>
+        </p>
+
+        <p>
+            <label for="rg">RG</label>
+            <input type="number" minlength="9" maxlength="9"
+            placeholder="Digite os 9 números de seu RG aqui" id="rg" name="NUMERO_RG" required>
+        </p>
+
+        <p>
+            <label for="email">E-mail</label>
+            <input type="text" minlength="7" maxlength="40" id="email" name="email"
+            placeholder="Digite seu e-mail aqui" required>
+        </p>
+
+        <p>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" minlength="6" maxlength="12"
+            placeholder="Digite sua senha aqui" required>
+            <button>👀</button> 
+        </p>
+
+        <p>
+            <label for="confirmarsenha">Confirmar senha</label>
+            <input type="password" id="confirmarsenha" minlength="6" maxlength="12"
+            placeholder="Digite sua senha novamente aqui" required>
+        </p>
+
+        <p>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="Sexo" id="fem" value="F"> Feminino
+                <input type="radio" name="Sexo" id="mas" value="M"> Masculino
+                <input type="radio" name="Sexo" id="outro" value="O"> Outro
+            </fieldset>
+        </p>
+            
+        <p>
+            <fieldset>
+                <legend>Escolha do Trabalho</legend>
+                <input type="radio" name="trab" id="varrer" value="varrer"> Varrer espaços públicos
+                <input type="radio" name="trab" id="limpar" value="limpar"> Limpar praia
+                <input type="radio" name="trab" id="cuidar" value="cuidar"> Cuidar de idosos
+            </fieldset>
+            <br>
+            Observação: Só é possível fazer um voluntariado por vez!
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar" required>
+        </p>
+        <hr>
+        </form>
+
+    </main>
+
+    <footer>
+        <p id="marca">Created by TimeNotUsed &copy; 2020</p>
+    </footer>
+</body>
+</html>
